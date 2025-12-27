@@ -4,4 +4,4 @@ import requests
 url = "https://api.github.com/events"
 
 response = requests.get(url)
-print(response)
+print(response.json())
