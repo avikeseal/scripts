@@ -3,7 +3,7 @@ import requests
 from bs4 import BeautifulSoup
 
 #get a simple request from web page 
-url = 'https://x.com'
+url = 'https://tutorialspoint.com'
 response = requests.get(url)
 
 #check to see if it works:
