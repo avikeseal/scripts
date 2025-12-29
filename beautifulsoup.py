@@ -3,7 +3,7 @@ import requests
 from bs4 import BeautifulSoup
 
 #get a simple request from web page 
-url = 'https://api.github.com'
+url = 'https://tutorialspoint.com'
 response = requests.get(url)
 
 soup = BeautifulSoup(response.content, 'html.parser')
