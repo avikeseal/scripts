@@ -1,7 +1,7 @@
 #!usr/bin/env bash
 
 #list packages that can be upgraded:
-apt list --upgradable
+sudo apt list --upgradable
 
 #update package lists:
 sudo apt update
