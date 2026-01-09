@@ -18,8 +18,10 @@ if [[ $output = y ]] ; then
 
       #clean up package cache:
       sudo apt clean
+      
+      echo " "
 
-      echo "============================system update and cleanup                        complete=========================="
+      echo "===SYSTEM UPDATE AND CLEANUP COMPETE==="
 
 else
       echo " "
