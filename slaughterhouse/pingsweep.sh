@@ -1,5 +1,7 @@
 #!usr/bin/env bash
-
+echo ' '
+echo 'List of IP addresses within your network: '
+echo ' '
 #in sequence of 1 thru 254 we use 'do' to perform ping
 for ip in `seq 1 254`; do
 
