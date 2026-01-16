@@ -21,7 +21,7 @@ if [[ $output = y ]] ; then
       
       echo " "
 
-      echo "===SYSTEM UPDATE AND CLEANUP COMPETE==="
+      echo "===SYSTEM UPDATE AND CLEANUP COMPLETE==="
 
 else
       echo " "
